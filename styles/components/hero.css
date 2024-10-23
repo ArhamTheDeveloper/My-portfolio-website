@@ -18,7 +18,6 @@
 .hero__subtitle {
   color: var(--clr-slate800);
   font-size: var(--size-base);
-  line-height: 0.9;
 }
 
 .hero__title {
@@ -26,14 +25,13 @@
   text-transform: uppercase;
   font-size: var(--size-4xl);
   letter-spacing: -0.05em;
-  line-height: 0.9;
+  line-height: 0.9; /* coz ramzi ne bhi de hui alag se */
 }
 
 .hero__description {
   max-width: 60ch;
   font-size: var(--size-sm);
   color: var(--clr-slate600);
-  line-height: 1.5; /* I gave it 47:50 tak clear*/
 }
 
 .hero__btn {
@@ -76,7 +74,6 @@
 } */
 /* lg */
 @media (min-width: 1024px) {
-
   .hero__img {
     width: 8rem;
     height: 8rem;
@@ -100,9 +97,9 @@
 }
 /* xl */
 @media (min-width: 1280px) {
-.hero{
-  gap: 2rem;
-}
+  .hero {
+    gap: 2rem;
+  }
 
   .hero__img {
     width: 10rem;
