@@ -55,6 +55,20 @@
   margin-left: 0.5em;
 }
 
+.about__img-wrapper {
+  overflow: hidden;
+  border-radius: 2px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.about__img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .about__img-wrapper {
@@ -62,6 +76,7 @@
   }
 
   .about__img {
+    height: auto;
     /* width: 28.5625rem 457px; Ise yahan specify karne ki zarurat is liye nahi hai coz the width of the image that we want is what that is at xs size so yahan container class ki max width hone ki wajah se the size of the  */
   }
 
@@ -93,7 +108,7 @@
 /* sm */
 @media (min-width: 640px) {
   .about__img {
-    width: 28.5625rem /*457px*/;
+    height: auto;
   }
 }
 /* md */
@@ -122,6 +137,10 @@
   .about__list {
     font-size: var(--size-lg);
   }
+
+  .about__img{
+    width: 20rem;
+  }
 }
 /* xl */
 @media (min-width: 1280px) {
@@ -147,7 +166,7 @@
   }
 
   .about__img {
-    width: 30.75rem;
+    width: 23rem;
   }
 }
 /* 2xl */
