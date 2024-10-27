@@ -8,7 +8,12 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dev Server</title>
+    <meta name="description" content="My portfolio website" />
+    <meta
+      name="keywords"
+      content="web design, web development, html, css, js"
+    />
+    <title>Portfolio Website</title>
   </head>
   <body>
     <header class="header container">
@@ -25,7 +30,11 @@
           </li>
           <li class="header__line"></li>
           <li>
-            <button id="theme-toggle" class="header__sun">
+            <button
+              aria-label="theme-toggle btn"
+              id="theme-toggle"
+              class="header__sun"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -41,7 +50,7 @@
             <a href="#" class="header__resume btn">Resume</a>
           </li>
         </ul>
-        <button class="header__bars">
+        <button aria-label="mobile nav button" class="header__bars">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -64,7 +73,11 @@
         <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
         <li class="mobile-nav__link-line"></li>
         <li>
-          <button class="mobile-nav__sun" id="theme-toggle">
+          <button
+            aria-label="theme-toggle btn"
+            class="mobile-nav__sun"
+            id="theme-toggle"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -146,7 +159,7 @@
         <h3 class="featured__subtitle">Featured Project</h3>
         <div class="featured__wrapper">
           <h2 class="featured__title">SLAYING THE DRAGON</h2>
-          <a href="#" class="featured__link"
+          <a aria-label="link featured projects" href="#" class="featured__link"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
